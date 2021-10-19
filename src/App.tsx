@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Test from './component/Test';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        
+
+        <Test></Test>
       </header>
     </div>
   );
